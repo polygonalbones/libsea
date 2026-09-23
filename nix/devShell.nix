@@ -1,9 +1,9 @@
 {
   mkShell,
-  clang,
+  zig_0_16,
 }:
 mkShell {
   buildInputs = [
-    clang
+    zig_0_16
   ];
 }
